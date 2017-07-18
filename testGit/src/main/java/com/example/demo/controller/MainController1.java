@@ -19,8 +19,6 @@ public class MainController1 {
 
 	}
 	
-	
-	
 	@RequestMapping("/main01")
 	public String main01() {
 		
@@ -32,6 +30,7 @@ public class MainController1 {
 		
 		return testPrint(gub);
 	}
+	
 	@RequestMapping("/main02")
 	public String main02() {
 		
