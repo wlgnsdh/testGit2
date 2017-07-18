@@ -20,9 +20,14 @@ public class Test01 {
 		return "helloworld!";
 	}
 	
-	@RequestMapping("/index")
+	@RequestMapping("/index2")
 	public String index2() {
 		return "helloworld22!";
+	}
+	
+	@RequestMapping("/index3")
+	public String index3() {
+		return "helloworld33!";
 	}
 
 }
