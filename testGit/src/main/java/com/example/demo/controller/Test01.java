@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Test01 {
 	
+	private boolean isChk = false;
+	
 	private String testPrint() {
 		// TODO Auto-generated method stub
 		
@@ -17,7 +19,12 @@ public class Test01 {
 	
 	@RequestMapping("/")
 	public String index() {
-		return "helloworld!";
+		
+		if(!isChk){
+			isChk = true;
+		}
+		
+		return "helloworld!" + isChk;
 	}
 	
 	@RequestMapping("/index2")
@@ -28,6 +35,11 @@ public class Test01 {
 	@RequestMapping("/index3")
 	public String index3() {
 		return "helloworld33!";
+	}
+	
+	@RequestMapping("/index4")
+	public String index4() {
+		return "helloworld44!";
 	}
 
 }
