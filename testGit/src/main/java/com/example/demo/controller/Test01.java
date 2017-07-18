@@ -19,5 +19,10 @@ public class Test01 {
 	public String index() {
 		return "helloworld!";
 	}
+	
+	@RequestMapping("/index")
+	public String index2() {
+		return "helloworld22!";
+	}
 
 }
