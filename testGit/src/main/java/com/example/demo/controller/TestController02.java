@@ -15,11 +15,7 @@ public class TestController02 {
 	private String testPrint(String gub) {
 		// TODO Auto-generated method stub
 		
-<<<<<<< HEAD
-		return "HelloWorld test4 sss : " + gub + "!!";
-=======
 		return "HelloWorld test4 s : " + gub + "!!";
->>>>>>> branch 'master' of https://github.com/wlgnsdh/testGit2.git
 
 	}
 	
