@@ -15,7 +15,7 @@ public class TestController02 {
 	private String testPrint(String gub) {
 		// TODO Auto-generated method stub
 		
-		return "HelloWorld test4 : " + gub + "!!";
+		return "HelloWorld test4 s : " + gub + "!!";
 
 	}
 	
