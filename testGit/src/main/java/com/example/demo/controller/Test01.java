@@ -19,34 +19,34 @@ public class Test01 {
 	
 	
 	
-	@RequestMapping("/")
-	public String index() {
+	@RequestMapping("/index11")
+	public String index11() {
 		
 		if(!isChk){
 			isChk = true;
 		}
 		
-		return "helloworld!" + isChk;
+		return "helloworld11!" + isChk;
 	}
 	
-	@RequestMapping("/index2")
-	public String index2() {
+	@RequestMapping("/index12")
+	public String index12() {
 		
 		if(!isChk2){
 			isChk2 = true;
 		}
 		
-		return "helloworld22!";
+		return "helloworld12!";
 	}
 	
-	@RequestMapping("/index3")
-	public String index3() {
-		return "helloworld33!";
+	@RequestMapping("/index13")
+	public String index13() {
+		return "helloworld13!";
 	}
 	
-	@RequestMapping("/index4")
-	public String index4() {
-		return "helloworld44!";
+	@RequestMapping("/index14")
+	public String index14() {
+		return "helloworld14!";
 	}
 
 }

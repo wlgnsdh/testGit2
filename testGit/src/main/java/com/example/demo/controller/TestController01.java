@@ -21,44 +21,44 @@ public class TestController01 {
 	
 	
 	
-	@RequestMapping("/index1")
-	public String index1() {
+	@RequestMapping("/index011")
+	public String index011() {
 		
 		if(!isChk){
 			isChk = true;
 		}
 		
-		gub = "11";
+		gub = "011";
 		
 		return testPrint(gub);
 	}
 	
 	
-	@RequestMapping("/index2")
+	@RequestMapping("/index012")
 	public String index2() {
 		
 		if(!isChk2){
 			isChk2 = true;
 		}
 		
-		gub = "22";
+		gub = "012";
 		
 		return testPrint(gub);
 	}
 	
-	@RequestMapping("/index3")
+	@RequestMapping("/index013")
 	public String index3() {
 
 
-		gub = "33";
+		gub = "013";
 		
 		return testPrint(gub);
 	}
 	
-	@RequestMapping("/index4")
+	@RequestMapping("/index014")
 	public String index4() {
 		
-		gub = "44";
+		gub = "014";
 		
 		return testPrint(gub);
 	}
