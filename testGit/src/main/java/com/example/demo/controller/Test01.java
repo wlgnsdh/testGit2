@@ -13,7 +13,7 @@ public class Test01 {
 	private String testPrint() {
 		// TODO Auto-generated method stub
 		
-		return "HelloWorld";
+		return "HelloWorld 3";
 
 	}
 	
