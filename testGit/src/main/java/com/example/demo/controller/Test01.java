@@ -8,6 +8,8 @@ public class Test01 {
 	
 	private boolean isChk = false;
 	
+	private boolean isChk2 = false;
+	
 	private String testPrint() {
 		// TODO Auto-generated method stub
 		
@@ -29,6 +31,11 @@ public class Test01 {
 	
 	@RequestMapping("/index2")
 	public String index2() {
+		
+		if(!isChk2){
+			isChk2 = true;
+		}
+		
 		return "helloworld22!";
 	}
 	
