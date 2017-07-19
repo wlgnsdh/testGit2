@@ -3,6 +3,8 @@ package com.example.demo.controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.example.demo.common.CommonUtil;
+
 @RestController
 public class MainController1 {
 	
@@ -28,7 +30,7 @@ public class MainController1 {
 		
 		gub = "main01";
 		
-		return testPrint(gub);
+		return CommonUtil.retHellow(gub);
 	}
 	
 	@RequestMapping("/main02")
@@ -40,7 +42,7 @@ public class MainController1 {
 		
 		gub = "main02";
 		
-		return testPrint(gub);
+		return CommonUtil.retHellow(gub);
 	}
 	
 	

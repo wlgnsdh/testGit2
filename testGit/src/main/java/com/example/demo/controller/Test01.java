@@ -19,8 +19,8 @@ public class Test01 {
 	
 	
 	
-	@RequestMapping("/")
-	public String index() {
+	@RequestMapping("/11")
+	public String i11() {
 		
 		if(!isChk){
 			isChk = true;
@@ -29,8 +29,8 @@ public class Test01 {
 		return "helloworld!" + isChk;
 	}
 	
-	@RequestMapping("/index2")
-	public String index2() {
+	@RequestMapping("/22")
+	public String i22() {
 		
 		if(!isChk2){
 			isChk2 = true;
@@ -39,13 +39,13 @@ public class Test01 {
 		return "helloworld22!";
 	}
 	
-	@RequestMapping("/index3")
-	public String index3() {
+	@RequestMapping("/33")
+	public String i33() {
 		return "helloworld33!";
 	}
 	
-	@RequestMapping("/index4")
-	public String index4() {
+	@RequestMapping("/44")
+	public String i44() {
 		return "helloworld44!";
 	}
 

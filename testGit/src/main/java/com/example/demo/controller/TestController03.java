@@ -21,8 +21,8 @@ public class TestController03 {
 	
 	
 	
-	@RequestMapping("/indexT1")
-	public String indexT1() {
+	@RequestMapping("/indexT11")
+	public String indexT11() {
 		
 		if(!isChk){
 			isChk = true;
@@ -33,8 +33,8 @@ public class TestController03 {
 		return testPrint(gub);
 	}
 	
-	@RequestMapping("/indexT2")
-	public String indexT2() {
+	@RequestMapping("/indexT22")
+	public String indexT22() {
 		
 		if(!isChk2){
 			isChk2 = true;
@@ -45,8 +45,8 @@ public class TestController03 {
 		return testPrint(gub);
 	}
 	
-	@RequestMapping("/indexT3")
-	public String indexT3() {
+	@RequestMapping("/indexT33")
+	public String indexT33() {
 
 
 		gub = "333";
@@ -54,8 +54,8 @@ public class TestController03 {
 		return testPrint(gub);
 	}
 	
-	@RequestMapping("/indexT4")
-	public String indexT4() {
+	@RequestMapping("/indexT44")
+	public String indexT44() {
 		
 		gub = "444";
 		
