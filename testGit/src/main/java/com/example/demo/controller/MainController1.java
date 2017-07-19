@@ -27,6 +27,9 @@ public class MainController1 {
 		if(!isChk){
 			isChk = true;
 		}
+		if(!isChk){
+			isChk = true;
+		}
 		
 		gub = "main01";
 		
@@ -40,7 +43,27 @@ public class MainController1 {
 			isChk = true;
 		}
 		
+		if(!isChk){
+			isChk = true;
+		}
+		
 		gub = "main02";
+		
+		return CommonUtil.retHellow(gub);
+	}
+	
+	@RequestMapping("/main03")
+	public String main03() {
+		
+		if(!isChk){
+			isChk = true;
+		}
+		
+		if(!isChk){
+			isChk = true;
+		}
+		
+		gub = "main03";
 		
 		return CommonUtil.retHellow(gub);
 	}
