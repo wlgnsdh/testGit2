@@ -23,26 +23,26 @@ public class MainController2 {
 	
 	
 	
-	@RequestMapping("/main11")
-	public String main11() {
+	@RequestMapping("/main21")
+	public String main21() {
 		
 		if(!isChk){
 			isChk = true;
 		}
 		
-		gub = "main11";
+		gub = "main21";
 		
 		return CommonUtil.retHellow(gub);
 	}
 	
-	@RequestMapping("/main12")
-	public String main12() {
+	@RequestMapping("/main22")
+	public String main22() {
 		
 		if(!isChk){
 			isChk = true;
 		}
 		
-		gub = "main12";
+		gub = "main22";
 		
 		return CommonUtil.retHellow(gub);
 	}
