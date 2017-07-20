@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.demo.common.CommonUtil;
 
 @RestController
-public class MainController5 {
+public class MainController6 {
 	
 	private boolean isChk = false;
 	
@@ -21,26 +21,14 @@ public class MainController5 {
 
 	}
 	
-	@RequestMapping("/main51")
-	public String main51() {
+	@RequestMapping("/main61")
+	public String main61() {
 		
 		if(!isChk){
 			isChk = true;
 		}
 		
-		gub = "main51";
-		
-		return CommonUtil.retHellow(gub);
-	}
-	
-	@RequestMapping("/main52")
-	public String main52() {
-		
-		if(!isChk){
-			isChk = true;
-		}
-		
-		gub = "main52";
+		gub = "main61";
 		
 		return CommonUtil.retHellow(gub);
 	}
