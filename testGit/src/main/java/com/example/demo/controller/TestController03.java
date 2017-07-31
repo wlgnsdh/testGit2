@@ -10,12 +10,12 @@ public class TestController03 {
 	
 	private boolean isChk2 = false;
 	
-	private String gub = "";
+	private String gub3 = "";
 	
 	private String testPrint(String gub) {
 		// TODO Auto-generated method stub
 		
-		return "HelloWorld test3 : " + gub + "!!";
+		return "HelloWorld test3 : " + gub3 + "!!";
 
 	}
 	
@@ -28,9 +28,9 @@ public class TestController03 {
 			isChk = true;
 		}
 		
-		gub = "111";
+		gub3 = "111";
 		
-		return testPrint(gub);
+		return testPrint(gub3);
 	}
 	
 	@RequestMapping("/test32")
@@ -40,25 +40,25 @@ public class TestController03 {
 			isChk2 = true;
 		}
 		
-		gub = "222";
+		gub3 = "222";
 		
-		return testPrint(gub);
+		return testPrint(gub3);
 	}
 	
 	@RequestMapping("/test33")
 	public String indexT33() {
 
 
-		gub = "333";
+		gub3 = "333";
 		
-		return testPrint(gub);
+		return testPrint(gub3);
 	}
 	
 	@RequestMapping("/test34")
 	public String indexT44() {
 		
-		gub = "444";
+		gub3 = "444";
 		
-		return testPrint(gub);
+		return testPrint(gub3);
 	}
 }
