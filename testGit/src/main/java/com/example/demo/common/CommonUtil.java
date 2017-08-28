@@ -2,7 +2,7 @@ package com.example.demo.common;
 
 public class CommonUtil {
 
-	private static String def = "Hello! ";
+	private static String def = "Hello! 20170828!!";
 	
 	
 	public static String retHellow(String gub ) {
