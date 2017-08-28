@@ -14,10 +14,12 @@ public class MainController1 {
 	
 	private String gub = "";
 	
+	private String gub2 = " gubun2!!";
+	
 	private String testPrint(String gub) {
 		// TODO Auto-generated method stub
 		
-		return "HelloWorld : " + gub + "!!!";
+		return "HelloWorld : " + gub + gub2 + "!!!";
 
 	}
 	
